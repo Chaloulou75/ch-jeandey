@@ -7,9 +7,10 @@ export default {
     "./plugins/**/*.{js,ts}",
     "./app.vue",
     "./error.vue",
+    "./presets/**/*.{js,vue,ts}",
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tailwindcss-primeui")],
 };
