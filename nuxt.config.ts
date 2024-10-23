@@ -18,7 +18,7 @@ export default defineNuxtConfig({
 
   site: {
     url: "https://www.charles-jeandey.com",
-    name: "Charles Jeandey",
+    name: "Charles Jeandey, développeur web",
     description:
       "Développeur web, Laravel, Vue js, Tailwind css, Inertia js, Nuxt js. full stack web developper.",
     defaultLocale: "fr",
