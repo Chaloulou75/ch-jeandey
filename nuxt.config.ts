@@ -14,7 +14,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxtjs/seo", "@primevue/nuxt-module"],
+  modules: ["@nuxtjs/seo", "@primevue/nuxt-module", "nuxt-gtag"],
 
   site: {
     url: "https://www.charles-jeandey.com",
@@ -22,6 +22,10 @@ export default defineNuxtConfig({
     description:
       "Développeur web, Laravel, Vue js, Tailwind css, Inertia js, Nuxt js. full stack web developper.",
     defaultLocale: "fr",
+  },
+
+  gtag: {
+    id: "G-QBHLV3XVM5",
   },
 
   primevue: {

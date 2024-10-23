@@ -13,6 +13,7 @@
     "@heroicons/vue": "^2.1.5",
     "@nuxtjs/seo": "^2.0.0-rc.23",
     "nuxt": "^3.13.0",
+    "nuxt-gtag": "^3.0.1",
     "primevue": "^4.0.7",
     "tailwindcss-primeui": "^0.3.4",
     "vue": "latest",
