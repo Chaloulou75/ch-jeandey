@@ -19,8 +19,9 @@ export default defineNuxtConfig({
   site: {
     url: "https://www.charles-jeandey.com",
     name: "Charles Jeandey",
-    description: "Développeur web, Laravel,Vue js, Tailwind css",
-    defaultLocale: "fr", // not needed if you have @nuxtjs/i18n installed
+    description:
+      "Développeur web, Laravel, Vue js, Tailwind css, Inertia js, Nuxt js. full stack web developper.",
+    defaultLocale: "fr",
   },
 
   primevue: {
