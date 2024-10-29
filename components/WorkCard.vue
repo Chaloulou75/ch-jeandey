@@ -25,7 +25,7 @@ defineProps({
     :to="href"
     target="_blank"
     :class="[
-      'group flex items-center justify-start p-4 rounded-xl',
+      'group flex items-center justify-start p-4 rounded-md ring-4 ring-slate-500 ring-offset-1',
       'transition-all duration-300 ease-in-out',
       'hover:shadow-xl hover:scale-[1.02]',
       'relative overflow-hidden',

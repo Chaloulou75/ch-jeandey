@@ -34,6 +34,14 @@ const items = [
       "bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600",
     textColor: "text-white",
   },
+  {
+    id: 5,
+    title: "Acadomia",
+    href: "https://contact.acadomia.fr/stages-vacances",
+    bgColor:
+      "bg-gradient-to-r from-lime-500 to-green-500 hover:from-lime-600 hover:to-green-600",
+    textColor: "text-white",
+  },
 ];
 </script>
 
