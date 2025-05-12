@@ -7,7 +7,7 @@ const items = [
         title: "Diag City",
         href: "https://www.diag-city.fr/",
         bgColor:
-            "bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600",
+            "bg-linear-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600",
         textColor: "text-white",
     },
     {
@@ -15,7 +15,7 @@ const items = [
         title: "Margaux Bendelac",
         href: "https://www.bendelac-avocat.com/",
         bgColor:
-            "bg-gradient-to-r from-sky-500 to-indigo-500 hover:from-sky-600 hover:to-indigo-600",
+            "bg-linear-to-r from-sky-500 to-indigo-500 hover:from-sky-600 hover:to-indigo-600",
         textColor: "text-white",
     },
     {
@@ -23,7 +23,7 @@ const items = [
         title: "Julieta Mercerat",
         href: "https://www.julietamercerat.com/",
         bgColor:
-            "bg-gradient-to-r from-violet-500 to-fuchsia-500 hover:from-violet-600 hover:to-fuchsia-600",
+            "bg-linear-to-r from-violet-500 to-fuchsia-500 hover:from-violet-600 hover:to-fuchsia-600",
         textColor: "text-white",
     },
     {
@@ -31,7 +31,7 @@ const items = [
         title: "Pantaloni Greiner Rachwan",
         href: "https://www.pantaloni-greiner-rachwan.com/",
         bgColor:
-            "bg-gradient-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600",
+            "bg-linear-to-r from-orange-500 to-pink-500 hover:from-orange-600 hover:to-pink-600",
         textColor: "text-white",
     },
     {
@@ -39,7 +39,7 @@ const items = [
         title: "Acadomia",
         href: "https://contact.acadomia.fr/stages-vacances",
         bgColor:
-            "bg-gradient-to-r from-lime-500 to-green-500 hover:from-lime-600 hover:to-green-600",
+            "bg-linear-to-r from-lime-500 to-green-500 hover:from-lime-600 hover:to-green-600",
         textColor: "text-white",
     },
 ];
@@ -47,7 +47,7 @@ const items = [
 
 <template>
     <div
-        class="flex flex-col items-center justify-center flex-1 w-full h-full text-slate-700 bg-gradient-to-r from-slate-100 to-blue-200"
+        class="flex flex-col items-center justify-center flex-1 w-full h-full text-slate-700 bg-linear-to-r from-slate-100 to-blue-200"
     >
         <div class="flex items-center px-4 mt-10 md:mt-24">
             <div class="flex flex-col gap-5 tracking-widest md:gap-10">

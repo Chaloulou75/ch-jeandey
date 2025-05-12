@@ -9,12 +9,12 @@ export default defineNuxtConfig({
 
     postcss: {
         plugins: {
-            tailwindcss: {},
+            "@tailwindcss/postcss": {},
             autoprefixer: {},
         },
     },
 
-    modules: ["@nuxtjs/seo", "@primevue/nuxt-module", "nuxt-gtag"],
+    modules: ["@nuxtjs/seo", "nuxt-gtag"],
 
     site: {
         url: "https://www.charles-jeandey.com",
@@ -26,12 +26,5 @@ export default defineNuxtConfig({
 
     gtag: {
         id: "G-ZHPSXKGYP6",
-    },
-
-    primevue: {
-        options: {
-            unstyled: true,
-        },
-        importPT: { from: path.resolve(__dirname, "./presets/lara/") }, //import and apply preset
     },
 });
