@@ -1,9 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
-import path from "path";
-
 export default defineNuxtConfig({
-    compatibilityDate: "2024-04-03",
+    compatibilityDate: "2024-11-01",
     devtools: { enabled: true },
     css: ["~/assets/css/main.css"],
 
@@ -18,10 +16,20 @@ export default defineNuxtConfig({
 
     site: {
         url: "https://www.charles-jeandey.com",
-        name: "Charles Jeandey, développeur web",
+        name: "Charles Jeandey - Développeur Web Full Stack",
         description:
-            "Développeur web, Laravel, Vue js, Tailwind css, Inertia js, Nuxt js. full stack web developper.",
+            "Charles Jeandey, développeur web full stack spécialisé en Laravel, Vue.js, Tailwind CSS, Inertia.js et Nuxt.js. Création de sites web et applications sur mesure.",
         defaultLocale: "fr",
+    },
+
+    app: {
+        pageTransition: { name: "page", mode: "out-in" },
+        head: {
+            htmlAttrs: { lang: "fr" },
+            link: [
+                { rel: "canonical", href: "https://www.charles-jeandey.com" },
+            ],
+        },
     },
 
     gtag: {

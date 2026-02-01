@@ -12,8 +12,8 @@
     "dependencies": {
         "@heroicons/vue": "latest",
         "@nuxtjs/seo": "latest",
-        "nuxt": "^3.13.0",
-        "nuxt-gtag": "^3.0.1",
+        "nuxt": "^4.3.0",
+        "nuxt-gtag": "^4.1.0",
         "vue": "latest",
         "vue-router": "latest"
     },
